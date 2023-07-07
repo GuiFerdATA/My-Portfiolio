@@ -123,6 +123,7 @@ html{
     font-family:'righteous';
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 100px;
 }
 .sobremi .contenido-seccion p{
     font: 18px;
@@ -231,6 +232,7 @@ html{
     font-family:'righteous';
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 150px;
 }
 .skills .fila{
     display: flex;
