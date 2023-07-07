@@ -445,9 +445,9 @@ html{
 .curriculum .fila .item .conectori{
     height: 2px;
     background-color: #1CB698;
-    width: 47px;
+    width: 38px;
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: -38px;
     z-index: 5;
 }
@@ -464,9 +464,9 @@ html{
 .curriculum .fila .item .conectord{
     height: 2px;
     background-color: #1CB698;
-    width: 47px;
+    width: 38px;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: -38px;
     z-index: 5;
 }
