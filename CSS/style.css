@@ -331,3 +331,43 @@ html{
     0%{width: 0;}
     100%{width: 85%;}
 }
+.skills .skill .comunicacion{
+    width: 0;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+.skills .skill .trabajoequipo{
+    width: 0;
+    animation: 2s trabajoequipo forwards;
+}
+@keyframes trabajoequipo{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+.skills .skill .creatividad{
+    width: 0;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{width: 0;}
+    100%{width: 99%;}
+}
+.skills .skill .dedicacion{
+    width: 0;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0;}
+    100%{width: 65%;}
+}
+.skills .skill .proyectmanage{
+    width: 0;
+    animation: 2s proyectmanage forwards;
+}
+@keyframes proyectmanage{
+    0%{width: 0;}
+    100%{width: 89%;}
+}
