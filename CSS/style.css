@@ -373,3 +373,71 @@ html{
     0%{width: 0;}
     100%{width: 89%;}
 }
+
+/* SECCION CURRICULUM */
+
+.curriculum{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+   max-width:1100px;
+   margin: auto; 
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family:'righteous';
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 150px;
+}
+.curriculum .fila{
+    display: flex;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 10px;
+}
+.curriculum .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #373b3f;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #373b3f;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #373b3f;
+    position: relative;
+}
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color: #1CB698;
+    font-size: 22px;
+    font-weight: bold;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color:#1CB698;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
+}
