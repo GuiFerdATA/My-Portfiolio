@@ -322,7 +322,7 @@ html {
 
 .skills .skill .javascript {
     width: 0;
-    animation: 2s javascript forwards;
+    animation: 4s javascript forwards;
 }
 
 @keyframes javascript {
@@ -337,7 +337,7 @@ html {
 
 .skills .skill .htmlcss {
     width: 0;
-    animation: 2s htmlcss forwards;
+    animation: 4s htmlcss forwards;
 }
 
 @keyframes htmlcss {
@@ -352,7 +352,7 @@ html {
 
 .skills .skill .reactjs {
     width: 0;
-    animation: 2s reactjs forwards;
+    animation: 4s reactjs forwards;
 }
 
 @keyframes reactjs {
@@ -367,7 +367,7 @@ html {
 
 .skills .skill .sass {
     width: 0;
-    animation: 2s sass forwards;
+    animation: 4s sass forwards;
 }
 
 @keyframes sass {
@@ -382,7 +382,7 @@ html {
 
 .skills .skill .boostrap {
     width: 0;
-    animation: 2s boostrap forwards;
+    animation: 4s boostrap forwards;
 }
 
 @keyframes boostrap {
@@ -397,7 +397,7 @@ html {
 
 .skills .skill .wordpress {
     width: 0;
-    animation: 2s wordpress forwards;
+    animation: 4s wordpress forwards;
 }
 
 @keyframes wordpress {
@@ -412,7 +412,7 @@ html {
 
 .skills .skill .github {
     width: 0;
-    animation: 2s github forwards;
+    animation: 4s github forwards;
 }
 
 @keyframes github {
@@ -427,7 +427,7 @@ html {
 
 .skills .skill .comunicacion {
     width: 0;
-    animation: 2s comunicacion forwards;
+    animation: 4s comunicacion forwards;
 }
 
 @keyframes comunicacion {
@@ -442,7 +442,7 @@ html {
 
 .skills .skill .trabajoequipo {
     width: 0;
-    animation: 2s trabajoequipo forwards;
+    animation: 4s trabajoequipo forwards;
 }
 
 @keyframes trabajoequipo {
@@ -457,7 +457,7 @@ html {
 
 .skills .skill .creatividad {
     width: 0;
-    animation: 2s creatividad forwards;
+    animation: 4s creatividad forwards;
 }
 
 @keyframes creatividad {
@@ -472,7 +472,7 @@ html {
 
 .skills .skill .dedicacion {
     width: 0;
-    animation: 2s dedicacion forwards;
+    animation: 4s dedicacion forwards;
 }
 
 @keyframes dedicacion {
@@ -487,7 +487,7 @@ html {
 
 .skills .skill .proyectmanage {
     width: 0;
-    animation: 2s proyectmanage forwards;
+    animation: 4s proyectmanage forwards;
 }
 
 @keyframes proyectmanage {
