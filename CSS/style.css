@@ -636,6 +636,7 @@ html {
 .portfolio .contenido-seccion {
     max-width: 1300px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .portfolio h2 {
@@ -643,6 +644,7 @@ html {
     font-family: 'righteous';
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 120px;
 }
 
 .portfolio .galeria {
