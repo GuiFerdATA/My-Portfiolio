@@ -14,7 +14,6 @@ function seleccionar(){
     document.getElementById("nav").classList ="";
     menuVisible = false;
 }
-
 //FUNCION ANIMACIONES EN HABILIDADES
 function efectoHabilidades(){
     let skills = document.getElementById("skills");
@@ -34,9 +33,7 @@ function efectoHabilidades(){
         habilidades[10].classList.add("dedicacion");
         habilidades[11].classList.add("proyectmanage");
     }
-
 }
-
 //DETECTAMOS SCROLLING PARA APLICAR EN ANIMACIONES
 window.onscroll = function(){
     efectoHabilidades();
