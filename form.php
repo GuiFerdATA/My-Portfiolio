@@ -27,6 +27,6 @@ $tema = "Este mensaje fue enviado desde el menu de contacto en el portfolio";//A
 mail($para, $tema, ($mensaje), $header);
 
 //redireccion una ves apretado el submit// 
-header('Location:mensajeForm.html');
+header('location:mensajeForm.html');
 
 ?>
