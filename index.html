@@ -285,7 +285,7 @@
                         <h4>Front-End Developer</h4>
                         <span class="casa">Coderhouse</span>
                         <span class="fecha">2022</span>
-                        <p> Proyecto constructora. HTML - CSS3 - SASS - BOOSTRAP.  </p>
+                        <p> Proyecto constructora. HTML - CSS3 - SASS - BOOSTRAP.</p>
                         <div class="conectord">
                             <div class="circulod">
 
@@ -372,17 +372,17 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- FORMULARIO -->
-                <div class="col">
-                    <input type="text" placeholder="Tu Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <form action="form.php" method="POST" class="col">
+                    <input type="text" name="nombre" placeholder="Tu Nombre">
+                    <input type="number" name="telefono" placeholder="Número telefónico">
+                    <input type="email" name="email" placeholder="Dirección de correo">
+                    <input type="text" name="asunto" placeholder="Asunto">
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
                         Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
-                </div>
+                </form>
                 <!-- mapa -->
                 <div class="col">
                     <img src="./IMG/Ubicacion.png" alt="">
