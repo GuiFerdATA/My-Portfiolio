@@ -1,7 +1,5 @@
 <?php
-
 //DECLARAMOS VARIABLES Y CONECTAMOS CON INPUTS// 
-
 $nombre = $_POST ['nombre'];
 $telefono = $_POST ['telefono'];
 $email = $_POST ['email'];
@@ -27,6 +25,8 @@ $tema = "Este mensaje fue enviado desde el menu de contacto en el portfolio";//A
 mail($para, $tema, ($mensaje), $header);
 
 //redireccion una ves apretado el submit// 
-header('location:mensajeForm.html');
+header('location:index.html');
 
 ?>
+
+
