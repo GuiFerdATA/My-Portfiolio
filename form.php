@@ -24,7 +24,7 @@ $tema = "Este mensaje fue enviado desde el menu de contacto en el portfolio";//A
 
 //FUNCION MAIL PREDEFINIDA POR PHP, ENVIA EL CORREO ELECTRONICO EN EL ORDEN DE = a quien?-asuntu-el mensaje-pagino de reedireccion// 
 
-mail($para, $tema, utf8_decode($mensaje), $header);
+mail($para, $tema, ($mensaje), $header);
 
 //redireccion una ves apretado el submit// 
 header('Location:mensajeForm.html');
