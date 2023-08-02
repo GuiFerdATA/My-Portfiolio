@@ -9,11 +9,11 @@ $mensaje = $_POST ['textarea'];
 // CUERPO DE MENSAJE QUE RECIBIMOS.//
 
 $mensaje = "Mensaje enviado por " . $nombre . "\r\n";
-$mensaje = "Telefono " . $telefono . "\r\n";
-$mensaje = "Email " . $email . "\r\n";
-$mensaje = "Asunto " . $asunto . "\r\n";
-$mensaje = "Mensaje: " . $_POST ["mensaje"] . "\r\n";
-$mensaje = "Enviado el " . date('d/m/Y' , time());
+$mensaje .= "Telefono " . $telefono . "\r\n";
+$mensaje .= "Email " . $email . "\r\n";
+$mensaje .= "Asunto " . $asunto . "\r\n";
+$mensaje .= "Mensaje: " . $_POST ["mensaje"] . "\r\n";
+$mensaje .= "Enviado el " . date('d/m/Y' , time());
 
 
 $para = "guille.fer79@hotmail.com"; //EMAIL DONDE LLEGAN LOS MSJ
