@@ -28,21 +28,21 @@ window.sr =ScrollReveal();
     });
     
     sr.reveal('.col', {
-        duration: 4000,
+        duration: 2000,
         reset: true,
     });
     sr.reveal('.proyecto', {
-        duration: 4000,
+        duration: 2000,
         reset: true,
 
     });
     sr.reveal('.redes', {
-        duration: 3000,
+        duration: 2000,
         reset: true,
 
     });
     sr.reveal('.arriba', {
-        duration: 3000,
+        duration: 2000,
         reset: true,
 
     });
