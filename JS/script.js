@@ -14,6 +14,22 @@ function seleccionar(){
     document.getElementById("nav").classList ="";
     menuVisible = false;
 }
+
+/*carga de pagina */ 
+
+window.addEventListener('load', function() {
+    // Espera 2 segundos (2000 milisegundos) antes de ocultar el elemento 'loader'
+    setTimeout(function() {
+      document.getElementById('loader').style.display = 'none';
+    }, 300);
+  });
+  window.addEventListener('load', function() {
+    // Espera 2 segundos (2000 milisegundos) antes de ocultar el elemento 'loader'
+    setTimeout(function() {
+      document.getElementById('loader2').style.display = 'none';
+    }, 600);
+  });
+
 //FUNCION ANIMACIONES EN HABILIDADES
 function efectoHabilidades(){
     let skills = document.getElementById("skills");
