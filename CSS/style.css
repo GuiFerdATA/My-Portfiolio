@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
 
-* {
+*{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -9,9 +9,13 @@
     font-family: 'Work Sans';
 }
 
-html {
+html{
     /*Nos permie desilzar cuando hacemos click en los links del menu*/
     scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /*MENU*/
@@ -22,7 +26,6 @@ html {
     left: 0;
     z-index: 99;
     position: fixed;
-    top: 0;
 }
 
 .contenedor-header header {
@@ -147,7 +150,7 @@ html {
 }
 
 .sobremi .contenido-seccion p {
-    font: 18px;
+    font-size: 18px;
     line-height: 22px;
     margin-bottom: 50px;
 }
@@ -324,7 +327,7 @@ html {
 
 .skills .skill .javascript {
     width: 0;
-    animation: 4s javascript forwards;
+    animation: 1s javascript forwards;
 }
 
 @keyframes javascript {
@@ -333,13 +336,13 @@ html {
     }
 
     100% {
-        width: 40%;
+        width: 99%;
     }
 }
 
 .skills .skill .htmlcss {
     width: 0;
-    animation: 4s htmlcss forwards;
+    animation: 2s htmlcss forwards;
 }
 
 @keyframes htmlcss {
@@ -348,13 +351,13 @@ html {
     }
 
     100% {
-        width: 75%;
+        width: 99%;
     }
 }
 
 .skills .skill .reactjs {
     width: 0;
-    animation: 4s reactjs forwards;
+    animation: 3s reactjs forwards;
 }
 
 @keyframes reactjs {
@@ -363,7 +366,7 @@ html {
     }
 
     100% {
-        width: 15%;
+        width: 99%;
     }
 }
 
@@ -378,13 +381,13 @@ html {
     }
 
     100% {
-        width: 80%;
+        width: 99%;
     }
 }
 
 .skills .skill .boostrap {
     width: 0;
-    animation: 4s boostrap forwards;
+    animation: 5s boostrap forwards;
 }
 
 @keyframes boostrap {
@@ -393,13 +396,13 @@ html {
     }
 
     100% {
-        width: 91%;
+        width: 99%;
     }
 }
 
 .skills .skill .wordpress {
     width: 0;
-    animation: 4s wordpress forwards;
+    animation: 6s wordpress forwards;
 }
 
 @keyframes wordpress {
@@ -408,13 +411,13 @@ html {
     }
 
     100% {
-        width: 20%;
+        width: 60%;
     }
 }
 
 .skills .skill .github {
     width: 0;
-    animation: 4s github forwards;
+    animation: 7s github forwards;
 }
 
 @keyframes github {
@@ -423,9 +426,10 @@ html {
     }
 
     100% {
-        width: 80%;
+        width: 99%;
     }
 }
+
 
 .skills .skill .comunicacion {
     width: 0;
