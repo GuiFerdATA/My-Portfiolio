@@ -36,11 +36,16 @@ window.sr =ScrollReveal();
         origin:'right',
         distance: '25px',
         reset: true,
-
     });
+    sr.reveal('.sobremi .fila .col h3', {
+        duration: 4000,
+
+        reset: true,
+    });
+
     sr.reveal('.skills h2', {
         duration: 4000,
-        origin:'right',
+        origin:'top',
         distance: '20px',
         reset: true,
     });
@@ -50,7 +55,7 @@ window.sr =ScrollReveal();
         reset: true,
     });
     
-    sr.reveal('.col', {
+    sr.reveal('.curriculum .fila .derecha', {
         duration: 2000,
         origin:'left',
         distance: '100px',
@@ -63,23 +68,23 @@ window.sr =ScrollReveal();
         distance: '20px',
         reset: true,
     });
-
+    sr.reveal('.sobremi .fila .col', {
+        duration: 2000,
+        origin:'left',
+        distance: '20px',
+        reset: true,
+    });
     sr.reveal('.proyecto', {
         duration: 2000,
         reset: true,
-
     });
-
-
     sr.reveal('.redes', {
         duration: 2000,
         reset: true,
-
     });
     sr.reveal('.arriba', {
         duration: 2000,
         reset: true,
-
     });
     sr.reveal('.curriculum .fila .izquierda', {
         duration: 2000,
@@ -97,5 +102,11 @@ window.sr =ScrollReveal();
         duration: 4000,
         reset: true,
     });
-    
-    
+    sr.reveal('.contacto h2', {
+        duration: 2000,
+        reset: true,
+    });
+    sr.reveal('.contacto .col', {
+        duration: 2000,
+        reset: true,
+    });
